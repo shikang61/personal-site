@@ -3247,7 +3247,7 @@ img.u-pull-left {
     aspect-ratio        : 1/1;
     width               : 100%;
     background-color    : var(--color-gray-4);
-    background-image    : url(../images/intro-bg.jpg);
+    background-image    : url(../images/intro-bg.jpeg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3273,9 +3273,9 @@ img.u-pull-left {
  * responsive:
  * intro
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
     .s-intro__text-huge {
-        --text-huge-size : 22rem;
+        --text-huge-size : 20rem;
     }
 }
 
