@@ -3193,7 +3193,7 @@ img.u-pull-left {
   line-height: 1.0998;
   letter-spacing: -0.01em;
   margin-top: 0;
-  color: white;
+  color: black;
 }
 
 .s-intro__text h3 span {
@@ -3207,7 +3207,7 @@ img.u-pull-left {
   letter-spacing: -0.015em;
   margin-top: calc(var(--text-huge-size) / 2 * -1.2);
   margin-bottom: var(--vspace-1_25);
-  color: white;
+  color: black;
 }
 
 /* --------------------------------------------------------------------
