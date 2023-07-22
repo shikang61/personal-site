@@ -3217,7 +3217,7 @@ a {
  * ## intro bg
  * -------------------------------------------------------------------- */
 .s-intro__bg {
-  aspect-ratio: 1.2/1;
+  aspect-ratio: 1.5/1;
   width: 100%;
   background-color: var(--color-gray-4);
   background-image: url(../images/intro-bg.jpeg);
