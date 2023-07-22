@@ -191,14 +191,14 @@
   --base-size: 62.5%;
   --multiplier: 1;
   --base-font-size: calc(1.9rem * var(--multiplier));
-  --space: calc(3.2rem * var(--multiplier));
+  --space: calc(3rem * var(--multiplier));
 
   /* vertical spacing 
      */
   --vspace-0_125: calc(0.125 * var(--space));
   --vspace-0_25: calc(0.25 * var(--space));
   --vspace-0_375: calc(0.375 * var(--space));
-  --vspace-0_5: calc(0.5 * var(--space));
+  --vspace-0_5: calc(0.3 * var(--space));
   --vspace-0_625: calc(0.625 * var(--space));
   --vspace-0_75: calc(0.75 * var(--space));
   --vspace-0_875: calc(0.875 * var(--space));
@@ -2700,7 +2700,7 @@ td:last-child {
 }
 
 .text-huge-title {
-  --text-huge: 9.4rem;
+  --text-huge: 8rem;
   --text-multiplier: 1;
   font-family: var(--font-2);
   font-weight: 400;
@@ -3201,7 +3201,7 @@ img.u-pull-left {
 }
 
 .s-intro__text-huge {
-  --text-huge-size: 15em;
+  --text-huge-size: 12em;
   font-size: var(--text-huge-size);
   line-height: 1;
   letter-spacing: -0.015em;
@@ -3298,7 +3298,7 @@ img.u-pull-left {
  *
  *
  * ------------------------------------------------------------------- */
-.s-about {
+.s-notes {
   --subtitle-line-height: var(--vspace-1_5);
   --timeline-left-padding: var(--vspace-1_75);
   --timeline-top-adjust: calc(var(--subtitle-line-height) / 2);
@@ -3308,19 +3308,19 @@ img.u-pull-left {
   padding-bottom: var(--vspace-3);
 }
 
-.s-about__block {
+.s-notes__block {
   margin-bottom: var(--vspace-2);
 }
 
-.s-about__timeline {
+.s-notes__timeline {
   padding-top: var(--vspace-1_5);
 }
 
-.s-about__timeline-section {
+.s-notes__timeline-section {
   position: relative;
 }
 
-.s-about__timeline-section::before {
+.s-notes__timeline-section::before {
   content: "";
   width: 1px;
   height: calc(100% - var(--timeline-top-adjust));
@@ -3330,14 +3330,14 @@ img.u-pull-left {
   left: calc(var(--timeline-vertical-border-pos) + var(--gutter));
 }
 
-.s-about .text-subtitle {
+.s-notes .text-subtitle {
   padding-left: var(--timeline-left-padding);
   line-height: var(--subtitle-line-height);
   margin-bottom: var(--vspace-0_25);
   position: relative;
 }
 
-.s-about .text-subtitle::before {
+.s-notes .text-subtitle::before {
   content: "";
   display: block;
   height: 1px;
@@ -3380,7 +3380,7 @@ img.u-pull-left {
 .timeline__title {
   font-family: var(--font-2);
   font-weight: 400;
-  font-size: var(--text-xl);
+  font-size: var(--text-lg);
   line-height: 1.0966;
   margin-top: 0;
   margin-bottom: var(--vspace-0_125);
