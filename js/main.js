@@ -40,13 +40,13 @@
         .add({
             targets: '.s-intro__bg',
             opacity: [0, 1],
-            duration: 1000,
+            duration: 500,
         })
         .add({
             targets: ['.animate-on-load'],
             translateY: [100, 0],
             opacity: [0, 1],
-            delay: anime.stagger(100)
+            delay: anime.stagger(50)
         });
 
 
@@ -226,8 +226,8 @@
                         targets: current.querySelectorAll('[data-animate-el]'),
                         opacity: [0, 1],
                         translateY: [100, 0],
-                        delay: anime.stagger(100, { start: 100 }),
-                        duration: 600,
+                        delay: anime.stagger(50, { start: 50 }),
+                        duration: 300,
                         easing: 'easeInOutCubic',
                         begin: function (anim) {
                             current.classList.add('ss-animated');

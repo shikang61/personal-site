@@ -2700,7 +2700,7 @@ td:last-child {
 }
 
 .text-huge-title {
-  --text-huge: 8rem;
+  --text-huge: 5rem;
   --text-multiplier: 1;
   font-family: var(--font-2);
   font-weight: 400;
@@ -2718,7 +2718,7 @@ td:last-child {
   color: var(--color-text-dark);
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  margin-top: 0;
+  margin-top: -2.5em;
   margin-bottom: var(--vspace-0_5);
 }
 
@@ -2836,7 +2836,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-pagewrap {
-  --header-height: 10rem;
+  --header-height: 7rem;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -2865,7 +2865,7 @@ img.u-pull-left {
 }
 
 .s-header.sticky {
-  --header-height: 8rem;
+  --header-height: 5rem;
   border-bottom: 1px solid var(--color-border);
   box-shadow: var(--box-shadow);
   position: fixed;
@@ -2886,7 +2886,7 @@ img.u-pull-left {
   letter-spacing: -0.03em;
   transform: translateY(-50%);
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 3.6rem;
 }
 
@@ -3165,7 +3165,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-intro {
-  padding-top: calc(9.5 * var(--space));
+  padding-top: calc(5 * var(--space));
   width: 100%;
   position: relative;
 }
@@ -3186,6 +3186,10 @@ img.u-pull-left {
   left: 0;
 }
 
+a {
+  color: inherit;
+}
+
 .s-intro__text h3 {
   font-family: var(--font-1);
   font-size: var(--text-xxxl);
@@ -3193,7 +3197,7 @@ img.u-pull-left {
   line-height: 1.0998;
   letter-spacing: -0.01em;
   margin-top: 0;
-  color: black;
+  color: white;
 }
 
 .s-intro__text h3 span {
@@ -3202,11 +3206,11 @@ img.u-pull-left {
 
 .s-intro__text-huge {
   font-size: 8;
-  line-height: 1;
+  line-height: 1.5;
   letter-spacing: -0.015em;
-  margin-top: calc(var(--text-huge-size) / 2);
+  margin-top: 1em;
   margin-bottom: var(--vspace-1_25);
-  color: black;
+  color: white;
 }
 
 /* --------------------------------------------------------------------
@@ -3244,7 +3248,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
   .s-intro__text-huge {
-    --text-huge-size: 20rem;
+    --text-huge-size: 15rem;
   }
 }
 
@@ -3368,7 +3372,7 @@ img.u-pull-left {
 
 .timeline__bullet {
   display: block;
-  height: 4.4rem;
+  height: 3rem;
   width: 3px;
   background-color: var(--color-text-dark);
   position: absolute;
@@ -3382,6 +3386,7 @@ img.u-pull-left {
   font-size: var(--text-lg);
   line-height: 1.0966;
   margin-top: 0;
+  margin-left: 10px;
   margin-bottom: var(--vspace-0_125);
 }
 
