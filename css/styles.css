@@ -3201,11 +3201,10 @@ img.u-pull-left {
 }
 
 .s-intro__text-huge {
-  --text-huge-size: 12em;
-  font-size: var(--text-huge-size);
+  font-size: 8;
   line-height: 1;
   letter-spacing: -0.015em;
-  margin-top: calc(var(--text-huge-size) / 2 * -1.2);
+  margin-top: calc(var(--text-huge-size) / 2);
   margin-bottom: var(--vspace-1_25);
   color: black;
 }
