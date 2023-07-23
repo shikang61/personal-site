@@ -3716,7 +3716,7 @@ a {
 /* on hover
  */
 .folio-item__thumb:hover .folio-item__thumb-link img {
-  transform: scale(1.05);
+  transform: scale(1);
 }
 
 .folio-item__thumb:hover .folio-item__thumb-link::before {
@@ -3927,7 +3927,7 @@ a {
   }
 
   .folio-item__title {
-    font-size: var(--text-lg);
+    font-size: var(--text-sm);
     line-height: var(--vspace-1);
   }
 
