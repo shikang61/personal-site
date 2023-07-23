@@ -3165,7 +3165,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-intro {
-  padding-top: calc(5 * var(--space));
+  padding-top: calc(4 * var(--space));
   width: 100%;
   position: relative;
 }
@@ -3192,12 +3192,12 @@ a {
 
 .s-intro__text h3 {
   font-family: var(--font-1);
-  font-size: var(--text-xxxl);
+  font-size: var(--text-xl);
   font-weight: 400;
   line-height: 1.0998;
   letter-spacing: -0.01em;
   margin-top: 0;
-  color: white;
+  color: black;
 }
 
 .s-intro__text h3 span {
@@ -3205,12 +3205,12 @@ a {
 }
 
 .s-intro__text-huge {
-  font-size: 8;
+  font-size: 3em;
   line-height: 1.5;
   letter-spacing: -0.015em;
-  margin-top: 1em;
-  margin-bottom: var(--vspace-1_25);
-  color: white;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  color: black;
 }
 
 /* --------------------------------------------------------------------
